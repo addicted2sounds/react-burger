@@ -5,8 +5,8 @@ import classes from './Items.module.css';
 
 const items = () => (
   <ul className={classes.Items}>
-    <Item href="/" active>Burger Builder</Item>
-    <Item href="/">Checkout</Item>
+    <Item href="/" exact>Burger Builder</Item>
+    <Item href="/orders">Orders</Item>
   </ul>
 );
 

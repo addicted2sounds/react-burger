@@ -27,3 +27,8 @@
   }
 }
 
+@media (min-width: 500px) {
+  .SideDrawerBtn {
+    display: none;
+  }
+}
